@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-size: 2vw;
+}
+
+.Title {
+    font-family: "Montserrat";
+    text-align: center;
+    background-color: #7f4352;
+    padding: 1vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+.Title h1 {
+    font-size: 2rem;
+}
+.Title p {
+    margin-top: 0.1vw;
+    letter-spacing: 0.5vw;
+    color: #FFD3D6;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.gradient-border {
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, #7f4352, #FFD3D6) 1;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    margin: 20px auto;
+    margin-bottom: 0.5vh;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover; 
+    vertical-align: bottom;
+    display: block; /* Adicionando a regra para display block */
+}
+#img-caption {
+    margin-top: 0;
+    text-align: center;         
+    font-size: 0.8rem;
+}
+
+h2 {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+#About-she p {
+    text-align: justify;
+    margin: 1vh 5vh 1vh 5vh;
+    text-indent: 3vh;
+}
+
+#parts-of-her-life {
+    display: flex;
+}
+
+.container {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    flex: 1;
+    padding: 2vw;
+    text-align: center;
+}
+
+#childhood > p {
+    margin-top: 2vw;
+    text-align: justify;
+    text-indent: 3vw;
+}
+
+#childhood > img {
+    margin-top: 2vw;
+}
+
+#Christmas > img {
+    margin-top: 2vw;
+}
+
+#smile > p {
+    margin-top: 2vw;
+    text-align: justify;
+    text-indent: 3vw;
+}
+
+#Christmas > p {
+    margin-top: 2vw;
+    text-align: justify;
+    text-indent: 3vw;
+}
